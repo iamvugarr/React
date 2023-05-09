@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Expense from './Expense Tracker/Expense';
+// import Expense from './Expense Tracker/Expense';
 // import Temprature from './Tempreture change/Temprature';
 // import Counter from './Counter/Counter';
-// import App from './App';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  // <App />
+  <App />
   // <Counter />
   // <Temprature />
-  <Expense />
+  // <Expense />
 );
 
 
