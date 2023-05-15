@@ -21,9 +21,9 @@ const Input = ({ task, setTask, increaseCount, setCount }) => {
 
 
     return (
-        <div>
+        <div className='input-todo-container'>
             <form onSubmit={addToBoard} action="">
-                <input onChange={handleChange} type="text" value={value} />
+                <input className='input-todo' onChange={handleChange} type="text" value={value} />
                 <button className='add-btn'>Add</button>
             </form>
         </div>

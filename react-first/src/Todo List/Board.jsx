@@ -8,9 +8,9 @@ const Board = ({ task }) => {
     }
 
     return (
-        <ol>
+        <ol className='ol-list'>
             {task.map((task) => (
-                <li key={uuid()}>{task} <button onClick={deleteTask}>delete</button></li>
+                <li key={uuid()}>{task} <button className='delete-btn' onClick={deleteTask}>delete</button></li>
             ))}
         </ol>
     )

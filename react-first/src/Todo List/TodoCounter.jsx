@@ -1,9 +1,8 @@
-
-
+import './style.css'
 const TodoCounter = ({count}) => {
 
   return (
-    <div>Counter: {count}</div>
+    <div className='counter'>Counter: {count}</div>
   )
 }
 

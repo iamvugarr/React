@@ -1,27 +1,36 @@
+<<<<<<< HEAD
 // import { useState } from "react";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Services from "./Components/Services/Services";
 import Welcome from "./Components/Welcome/Welcome";
+=======
+import { useState } from "react";
+// import Contact from "./Components/Contact/Contact";
+// import Footer from "./Components/Footer/Footer";
+// import Header from "./Components/Header/Header";
+// import Services from "./Components/Services/Services";
+// import Welcome from "./Components/Welcome/Welcome";
+>>>>>>> c2b20c164ea746b59672b1beff222e335a2c3a21
 
-// import Board from "./Todo List/Board";
-// import Input from "./Todo List/Input";
-// import TodoCounter from "./Todo List/TodoCounter";
+import Board from "./Todo List/Board";
+import Input from "./Todo List/Input";
+import TodoCounter from "./Todo List/TodoCounter";
 
 function App() {
-  // const [task, setTask] = useState([])
-  // const [count, setCount] = useState(0)
+  const [task, setTask] = useState([])
+  const [count, setCount] = useState(0)
 
-  // const increaseCount = () => {
-  //   setCount(count + 1)
-  // }
+  const increaseCount = () => {
+    setCount(count + 1)
+  }
 
   return (
     <>
-      {/* <TodoCounter count={count} />
+      <TodoCounter count={count} />
       <Input task={task} setTask={setTask} increaseCount={increaseCount} setCount={setCount} />
-      <Board task={task} /> */}
+      <Board task={task} />
 
 
       <Header />
