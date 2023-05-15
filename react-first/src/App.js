@@ -1,9 +1,9 @@
 // import { useState } from "react";
-// import Contact from "./Components/Contact/Contact";
-// import Footer from "./Components/Footer/Footer";
-// import Header from "./Components/Header/Header";
-// import Services from "./Components/Services/Services";
-// import Welcome from "./Components/Welcome/Welcome";
+import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
+import Header from "./Components/Header/Header";
+import Services from "./Components/Services/Services";
+import Welcome from "./Components/Welcome/Welcome";
 
 // import Board from "./Todo List/Board";
 // import Input from "./Todo List/Input";
@@ -24,11 +24,11 @@ function App() {
       <Board task={task} /> */}
 
 
-      {/* <Header />
+      <Header />
       <Welcome />
       <Services />
       <Contact />
-      <Footer /> */}
+      <Footer />
     </>
   );
 }
